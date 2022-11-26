@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+User-agent: nsa
+Disallow: /
+
+User-agent: Twitterbot
+Disallow: /

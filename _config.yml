@@ -1,0 +1,39 @@
+# Site settings
+title: Rumia's Home
+email: rilysh@riseup.net
+description: >
+  Blog about different types of writing, GNU/Linux distro setup, and how to do things.
+  talks about *BSD, etc.
+baseurl: ""
+url: "" # the base hostname & protocol for your site
+
+github_username: rilysh
+permalink: /:year/:month/:day/:title:output_ext
+
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num.html'
+  title: ':title - page :num'
+  sort_reverse: true
+
+autopages:
+  enabled: true
+  categories:
+    title: 'Posts in category :cat'
+  tags:
+    title: 'Posts tagged with :tag'
+  collections:
+    title: 'Posts in collection :coll'
+
+# jekyll seo tag settings
+logo: assets/void.png
+mastodon:
+  username: cuddle
+twitter:
+  username: kiwimoetweet
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
