@@ -1,11 +1,10 @@
-# Site settings
 title: Rumia's Home
 email: rilysh@riseup.net
 description: >
   Blog about different types of writing, GNU/Linux distro setup, and how to do things.
   talks about *BSD, etc.
 baseurl: ""
-url: "" # the base hostname & protocol for your site
+url: ""
 
 github_username: rilysh
 permalink: /:year/:month/:day/:title:output_ext
@@ -26,14 +25,12 @@ autopages:
   collections:
     title: 'Posts in collection :coll'
 
-# jekyll seo tag settings
 logo: assets/void.png
 mastodon:
   username: cuddle
 twitter:
   username: kiwimoetweet
 
-# Build settings
 markdown: kramdown
 sass:
   style: compressed
