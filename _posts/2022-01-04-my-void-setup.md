@@ -2,7 +2,8 @@
 layout: post
 title: My Void Linux setup
 subtitle: Setting up Void Linux
-tags: [guide]
+categories: [guide]
+tags: [guide, linux]
 ---
 
 ## Setup Void Linux
