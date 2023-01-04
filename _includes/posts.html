@@ -1,21 +1,16 @@
 <div class="home">
-
   <ul class="post-list">
     {% for post in paginator.posts %}
     <li>
       <time class="post-meta" datetime="{{ post.date | date: "%Y-%m-%d %H:%M" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-
       <h1>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h1>
-
       {% if post.subtitle %}
       <p>{{ post.subtitle }}</p>
       {% endif %}
     </li>
     {% endfor %}
   </ul>
-
   {% include pagination.html %}
-
 </div>

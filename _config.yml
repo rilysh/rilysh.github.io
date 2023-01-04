@@ -1,8 +1,6 @@
-title: Rumia's Home
-email: rilysh@riseup.net
-description: >
-  Blog about different types of writing, GNU/Linux distro setup
-  talks about *BSD, etc.
+title: Unnamed Home
+email: ntl@riseup.net
+description: Blog about nearly everything that comes to my mind.
 baseurl: ""
 url: ""
 
@@ -23,14 +21,8 @@ autopages:
   tags:
     title: 'Posts tagged with :tag'
   collections:
-    title: 'Posts in collection :coll'
 
 logo: assets/void.png
-mastodon:
-  username: cuddle
-twitter:
-  username: kiwimoetweet
-
 markdown: kramdown
 sass:
   style: compressed

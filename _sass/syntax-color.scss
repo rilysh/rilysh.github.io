@@ -1,9 +1,9 @@
 .highlight {
-  background: #fff;
+  background: $background-color;
   @extend %vertical-rhythm;
 
   .highlighter-rouge &
-         { background: #eef }
+         { background: $background-color }
   .c     { color: #998; font-style: italic }
   .err   { color: #a61717; background-color: #e3d2d2 }
   .k     { font-weight: bold }
