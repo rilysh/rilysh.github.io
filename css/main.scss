@@ -3,8 +3,8 @@
 ---
 @charset "utf-8";
 
-$base-font-family: "monospace";
-$base-font-size:   16px;
+$base-font-family: monospace;
+$base-font-size:   15px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -12,7 +12,6 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #000000;
-$background-wide-color: #ffffff;
 $background-color: #ffffff;
 $brand-color:      #2a7ae2;
 $site-title-hover-color: #444;
